@@ -1,6 +1,7 @@
 const translations = {
   'de': {
     'direction': 'ltr',
+    'clean-ip-scanner': 'Clean IP Scanner',
     "darkmode": "Dunkelmodus",
     'language': 'Sprache',
     "page-title": "leen | IP Scanner",
@@ -27,6 +28,7 @@ const translations = {
   'en': {
     'direction': 'ltr',
     "darkmode": "Dark Mode",
+    'clean-ip-scanner': 'Clean IP Scanner',
     'language': 'Language',
     "page-title": "leen | IP Scanner",
     "defAlert": "With IP Scanner tool, you can search for clean Cloudflare IPs!",
@@ -52,6 +54,7 @@ const translations = {
   'fa': {
     'direction': 'ltr',
     "darkmode": "حالت تاریک",
+    'clean-ip-scanner': 'اسکنر IP تمیز',
     'language': 'زبان',
     "page-title": "leen | اسکن IP",
     "defAlert": "با ابزار اسکن IP می‌توانید برای IP‌های تمیز Cloudflare جستجو کنید!",
@@ -77,6 +80,7 @@ const translations = {
   'fr': {
     'direction': 'ltr',
     "darkmode": "Mode sombre",
+    'clean-ip-scanner': 'Scanner IP propre',
     'language': 'Langue',
     "page-title": "leen | Scanner IP",
     "defAlert": "Avec l'outil de scanner IP, vous pouvez rechercher des IP propres à Cloudflare!",
@@ -102,6 +106,7 @@ const translations = {
   'ru': {
     'direction': 'ltr',
     "darkmode": "Тёмный режим",
+    'clean-ip-scanner': 'Чистый IP-сканер',
     'language': 'Язык',
     "page-title": "leen | IP Scanner",
     "defAlert": "С помощью инструмента IP Scanner вы можете искать чистые IP-адреса Cloudflare!",
@@ -127,6 +132,7 @@ const translations = {
   'es': {
     'direction': 'ltr',
     "darkmode": "Modo oscuro",
+    'clean-ip-scanner': 'Escáner de IP limpio',
     'language': 'Idioma',
     "page-title": "leen | Escáner de IP",
     "defAlert": "Con la herramienta IP Scanner, ¡puedes buscar IPs limpias de Cloudflare!",
@@ -152,6 +158,7 @@ const translations = {
   'tr': {
     'direction': 'ltr',
     "darkmode": "Karanlık Mod",
+    'clean-ip-scanner': 'Temiz IP Tarayıcı',
     'language': 'Dil',
     "page-title": "leen | IP Tarayıcı",
     "defAlert": "IP Tarayıcı aracı ile temiz Cloudflare IP'lerini arayabilirsiniz!",
@@ -178,6 +185,7 @@ const translations = {
   'zh': {
     'direction': 'ltr',
     "darkmode": "深色模式",
+    'clean-ip-scanner': '清洁IP扫描器',
     'language': '语言',
     "page-title": "leen | IP 扫描器",
     "defAlert": "使用 IP Scanner 工具，您可以搜索干净的 Cloudflare IP!",
