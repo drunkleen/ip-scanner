@@ -229,10 +229,12 @@ function changeLanguage(lang = 'en') {
 }
 
 function getSavedLanguage() {
-  return localStorage.getItem('selectedLanguage');
+  return localStorage.getItem('selectedLanguage') || 'en';
 }
 
-
+if (!localStorage.getItem('selectedLanguage')) {
+  localStorage.setItem('selectedLanguage', 'en');
+}
 
 if (!localStorage.getItem('darkMode')) {
   localStorage.setItem('darkMode', 'dark');
