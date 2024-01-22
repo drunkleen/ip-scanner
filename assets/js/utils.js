@@ -229,7 +229,7 @@ function changeLanguage(lang = 'en') {
 }
 
 function getSavedLanguage() {
-  return localStorage.getItem('selectedLanguage') || 'en';
+  return localStorage.getItem('selectedLanguage');
 }
 
 
@@ -245,11 +245,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const bodyElement = document.body;
   const currentTheme = localStorage.getItem('darkMode');
+  const checkbox = document.getElementById("flexSwitchCheckChecked");
 
   if (currentTheme) {
     if (currentTheme === 'dark') {
+      checkbox.checked = true;
       bodyElement.setAttribute('data-bs-theme', 'dark');
     } else {
+      checkbox.checked = false;
       bodyElement.setAttribute('data-bs-theme', 'light');
     }
   }
