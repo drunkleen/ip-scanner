@@ -58,7 +58,7 @@ const translations = {
     'language': 'زبان',
     "page-title": "leen | اسکن IP",
     "defAlert": "با ابزار اسکن IP می‌توانید برای IP‌های تمیز Cloudflare جستجو کنید!",
-    "header-text": "اینترنت آزاد حق انسانی است | زنان زندگی آزادی",
+    "header-text": "اینترنت آزاد حق انسانیست | زن زندگی آزادی",
     "description": "IP امن و تمیز برای دسترسی به اینترنت آزاد از طریق Cloudflare",
     "tools": "ابزارها",
     "ip-count": "تعداد IP‌ها",
